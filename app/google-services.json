@@ -1,0 +1,39 @@
+{
+    "project_info": {
+      "project_number": "782262801580",
+      "project_id": "tidy-95429",
+      "storage_bucket": "tidy-95429.appspot.com"
+    },
+    "client": [
+      {
+        "client_info": {
+          "mobilesdk_app_id": "1:782262801580:android:668a797d25f7950256bb09",
+          "android_client_info": {
+            "package_name": "com.test.app"
+          }
+        },
+        "oauth_client": [
+          {
+            "client_id": "782262801580-l2cb293oes7onq4ebdn5gepuj90rq74r.apps.googleusercontent.com",
+            "client_type": 3
+          }
+        ],
+        "api_key": [
+          {
+            "current_key": "AIzaSyCffIGiYrjpe3VB6d5PMAiihw87LIrOavw"
+          }
+        ],
+        "services": {
+          "appinvite_service": {
+            "other_platform_oauth_client": [
+              {
+                "client_id": "782262801580-l2cb293oes7onq4ebdn5gepuj90rq74r.apps.googleusercontent.com",
+                "client_type": 3
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "configuration_version": "1"
+  }
