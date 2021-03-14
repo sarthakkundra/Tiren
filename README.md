@@ -1,4 +1,4 @@
 # REN
-<p align="center">
-<img src="https://github.com/sarthakkundra/Tidy/blob/main/Logo/REN.png" alt="drawing" width="400"/>
-</p>
+![Ren Token](./app/assets/logo.png)
+![TiRen Workflow](./TiREN.jpg "Tiren Lifecycle")
+![Uniswap Exchange](./uniswap.jpeg "Uniswap pool to exchange REN to ETH")

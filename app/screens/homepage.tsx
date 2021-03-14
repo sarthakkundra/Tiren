@@ -1,20 +1,28 @@
 import React from "react";
-import { View, Text, Button, StyleSheet } from "react-native";
+import { View, Text, Button, StyleSheet, FlatList, Image } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import CameraScreen from "./camera";
-
+import logo from '../assets/logo.png';
 const Tab = createBottomTabNavigator();
 
-const HomeLayout = ({ navigation }) => {
+const HomeLayout = ({ navigation }: any) => {
   return (
     <View style={styles.container}>
+       <Text><Image source={logo} style={{ width: 80, height: 70 }}></Image>: 0.01 REN</Text>
       <Text style={{ padding: 10 }}>
-        First take a photo of a messy room. Then take another photo when you
-        clean the room. If the room is cleaned, we will send over some cryptos
-        to you!
+       
+        <FlatList
+        data={[
+          {key: 'Take a picture of your messy room.'},
+          {key: 'Take a picture of your clean room.'},
+          {key: 'Earn REN Token'}
+        ]}
+        renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
+      />
+
       </Text>
-      <Text style={{ padding: 10 }}>Take Photo of a clean room</Text>
+      <Text style={{ padding: 10 }}>Great work! You just earned 0.01 REN! Congratulations!</Text>
       <Button
         title="Click Photo"
         onPress={() => navigation.navigate("Camera")}

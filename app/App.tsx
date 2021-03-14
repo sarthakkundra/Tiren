@@ -9,11 +9,11 @@ import HomeScreen from "./screens/homepage";
 
 const Tab = createBottomTabNavigator();
 
-const LoadingScreen = ({ navigation }) => {
+const LoadingScreen = ({ navigation }: any) => {
   return (
     <View style={styles.container}>
       <Image source={logo} style={{ width: 305, height: 159 }}></Image>
-      <Text style={styles.logoText}>Welcome to Ren!</Text>
+      <Text style={styles.logoText}>Welcome to TiRen!</Text>
       <Button
         title="Get Started"
         onPress={() => navigation.navigate("Home")}

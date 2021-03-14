@@ -83,6 +83,7 @@ const CameraScreen = () => {
             width: "100%",
           }}
         >
+         
           {previewVisible && capturedImage ? (
             <CameraPreview
               photo={capturedImage}
@@ -297,7 +298,7 @@ const CameraPreview = ({ photo, retakePicture, savePhoto }: any) => {
                   fontSize: 20,
                 }}
               >
-                save photo
+                Use photo
               </Text>
             </TouchableOpacity>
           </View>
